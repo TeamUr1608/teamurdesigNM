@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+::after {
+  -moz-box-align: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+::after {
+  outline: none;
+}
+
+a:focus,
+a::after {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  list-style: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+template {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.silka {
+  background: white;
+  color: rgb(0, 0, 0);
+  margin: 4px;
+  padding: 30px;
+  letter-spacing: 10px;
+  border-radius: 30px 0 30px 0;
+}
+
+.q1 {
+  margin: 10px 45px 10px 45px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  display: inline-block;
+  color: #000000;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+.q1:hover {
+  color: rgb(46, 46, 46);
+}
+.q1::after {
+  display: block;
+  content: "";
+  background-color: #000000;
+  height: 3px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.q1:hover:after,
+.q1:focus:after {
+  width: 99%;
+}
+
+h1 {
+  margin: 60px 60px 40px 60px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.knopka-silka {
+  margin: 30px 0 40px 60px;
+  font-size: 30px;
+  width: 600;
+  padding: 25px 0 25px 0;
+  color: #f1f1f1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.knopka-silka :hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  -webkit-box-shadow: 3px 4px 10px white;
+          box-shadow: 3px 4px 10px white;
+}
+
+.w2 {
+  color: rgb(0, 0, 0);
+  padding: 25px;
+}
+
+.center-text {
+  font-size: 25px;
+  margin: 250px 0 30px 0;
+  padding: 100px 50px 100px 50px;
+  background-color: white;
+  color: #000000;
+}
+
+.center-text__1 {
+  padding: 0 50px 0 50px;
+}
+
+.img-logo {
+  margin: 10px 30px 30px 30px;
+  border-radius: 30px;
+  width: 440px;
+}
+
+.columns-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.moon-vacation {
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+
+.moon-vacation .lead {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.right-column {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.lead-text {
+  margin: 40px;
+}
+
+.lead {
+  margin: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 40px 40px 10px 40px;
+}
+
+.e3 {
+  font-size: 25px;
+  margin: 0 40px 40px 40px;
+}
